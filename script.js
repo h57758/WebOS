@@ -4,7 +4,7 @@ function hidewindow() {
     // Set the innerHTML to nothing to delete everything in the popup
     popupmsg.innerHTML = '';
 
-    // Hide the poup
+    // Hide the popup
     popupmsg.hidden = true;
 }
 
