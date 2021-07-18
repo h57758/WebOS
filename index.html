@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>WebOS - Virtual Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="popupmsg"
+        style="box-shadow: 0px 2px 12px rgb(48, 48, 48);border-radius:5px;border:solid 1px black;width:500px;position:absolute;height:300px;bottom:50px;right:10px;background-color:white;"
+        hidden="true"></div>
+
+
+
+    <div width="50px" class="desktop-icon">
+        <a href="javascript:makewindow(true, 'Oh no!!!!!', 'That feature is coming soon!', 'right')">
+            <img width="36px" src="icons/svg/places/user-trash.svg"><br>
+            <span>Trash</span>
+        </a>
+    </div>
+
+
+    <div class="taskbar"><button style="height:40px;font-weight: bold;"
+            onclick="makewindow(true, 'WAIT WHAT!!?!?!?!?!?', 'That feature is coming soon!?!?!??!?!?!?', 'left')">Start</button>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

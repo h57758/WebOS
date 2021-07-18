@@ -1,0 +1,22 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a, button {
+    cursor: url(link.cur), pointer;
+
+    color:black;
+}
+
+.taskbar {
+    background-color:rgb(179, 179, 179);
+    height:40px;
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+
+body,html {
+    background-color: rgb(120, 179, 255);
+}
