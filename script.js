@@ -8,15 +8,15 @@ function hidewindow() {
     popupmsg.hidden = true;
 }
 
-function makewindow(ismsg = true, title = 'WebOS', content = 'Hello, World!', direction = 'right') {
+function makewindow(ismsg = true, title = 'WebOS', content = 'Hello, World!', position = 'right') {
     var popupmsg = document.getElementById('popupmsg');
 
     // Check if the popup should be in the left or right corners
-    if (direction == 'right') {
+    if (position == 'right') {
         // Right
         popupmsg.style.left = null;
         popupmsg.style.right = '10px';
-    } else if (direction = 'left') {
+    } else if (position = 'left') {
         // Left
         popupmsg.style.right = null;
         popupmsg.style.left = '10px';
